@@ -1,0 +1,16 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - --no-browser 
+      - --ip=0.0.0.0 
+      - --port=8000 
+      - --allow-root
+      - /notebooks
+    ports: 
+      - 8000:8000
+    volumes:
+      - ./src:/notebooks
