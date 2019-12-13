@@ -41,3 +41,9 @@ At the end our data are stored in the form of the following DataFrame.
 ```bash
 docker-compose up --build
 ```
+
+
+### 3. To do
+- [ ] image storing
+- [ ] one-page meal reaport generator
+- [ ] pdf cookbook generator
