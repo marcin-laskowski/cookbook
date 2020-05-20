@@ -3,4 +3,4 @@ tqdm==4.40.2
 requests==2.20.0
 numpy==1.17.4
 beautifulsoup4==4.8.1
-httplib2==0.14.0
+httplib2==0.18.0
