@@ -1,6 +1,6 @@
 pandas==0.25.3
 tqdm==4.40.2
 requests==2.20.0
-numpy==1.17.4
+numpy==1.22.0
 beautifulsoup4==4.8.1
 httplib2==0.14.0
